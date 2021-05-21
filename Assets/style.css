@@ -1,0 +1,36 @@
+body {
+   height: 90vh;
+    width: 95vw; 
+}
+
+#timer {
+    width: 100%;
+    text-align: right;
+}
+
+main {
+    display: flex;
+    /*(#)vh or (#)vw is delegating the size of the container 
+    based on the viewport (height/width)*/
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button:hover {
+    background-color: red;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight:600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+label {
+    display: none;
+    margin: 7px;
+}
