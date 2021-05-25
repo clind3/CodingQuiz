@@ -28,7 +28,10 @@ button:hover {
 
 ul {
     list-style-type: none;
+    width: 30%;
+    margin: 4px;
 }
+
 
 label {
     display: none;
